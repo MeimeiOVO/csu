@@ -18,7 +18,7 @@ app = Flask(__name__)
 
 line_bot_api = LineBotApi('3/2nWMkaqu6huV/FVONf5uZi9EzrxZypGpEVfU0ObBn78mGsuAPDrruJHIfd4aVw5NO6t61j1yHnjbis5ZYMUbJfYUsF42BUNmIJXGADhvuItDF0AiYfJUrIHZqIve0zy026qIO1GJxJJSZ+AEhIDAdB04t89/1O/w1cDnyilFU=')
 
-handler = WebhookHandler('2ecce2299004a8e332a87d0e9b79b084')
+handler = WebhookHandler('7beee4510a3ead2265bf5ad0cab5b105')
 
 line_bot_api.push_message('U96d2c8356ec1ff90bf627cab8e8c58ca', TextSendMessage(text='系統測試中，若您覺得訊息干擾到您，您可以將聊天室設為靜音，謝謝喔！'))
 
