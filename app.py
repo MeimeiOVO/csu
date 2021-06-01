@@ -158,8 +158,8 @@ def handle_message(event):
     elif user_message.find('圖片訊息') != -1 :         #判斷用戶使否傳來"圖片訊息"關鍵字，若為是則觸發本區段。  
         
         res_message = ImageSendMessage(
-            original_content_url='https://photos.app.goo.gl/fUuM6JW86LRi9rXcA',
-            preview_image_url='https://photos.app.goo.gl/fUuM6JW86LRi9rXcA'
+            original_content_url='https://lh3.googleusercontent.com/h0hffigUc8aH1BtWuMu1Vw4x_4O-meaAZMqgAAclSsSjLRDQfiBBjBGfMqHR4RiFB3Px6I11fysUdLGTiDVmv8GKe68SIj4BB0fvxoSON7DJxZdf2xU1j64DlntllIdTf40x1Pu102sLoaxH5-bGsrF4lqBsLCIgcKzVJ4kJf_IaA6DDtZrekLEzRCBnyJ36dSg9rIx-LykAL8xo_TsI1cRjzfwK13t1AEZSNR1-ZANTpE_Beuft0Oq5UKi50fCxapLiudDh9gQMv3Zb2smHHUnbjbNbZ7_VPatSc6IrJVteUTdKknA-bJjWOno_-bRM8oQRMzm7ML9Wnohp6eAhZ3f1zTqG1tRLyEheFs4twFi90s4Mbai09YAAUHybZAFLsx3gyitaFCxMXevRO-35-gGeIauf4XwzmVIPYgGRxTFxvq-Q4eF9aryXBo9uZ9nzh0MCKYtcJ8f8drap2gpUzJuw-Mh4syc0uAGCDvqWJkgk4bGPdTfgzkDlZrpjiXg94UUoT2OR6biFOSIR2OUD3186giY6BAZMK-9B9m0tdaZnhhJ1LVWU7b3AUR4QS2bXgS2YYx2ZQ5l8T5xHEgPcDyL16OfMvDCCHiB_rkwm0FWTUPGPpJZgq3k1bbon1fprQpeUvStypv2jvbdDr4dLGpKPW05ByrCxIScYKrxCWRfdiVOLCNwfQJO2fKWii3Dp4sjnRbnie87lGopgz8WamWg=w1301-h919-no?authuser=0',
+            preview_image_url='https://lh3.googleusercontent.com/h0hffigUc8aH1BtWuMu1Vw4x_4O-meaAZMqgAAclSsSjLRDQfiBBjBGfMqHR4RiFB3Px6I11fysUdLGTiDVmv8GKe68SIj4BB0fvxoSON7DJxZdf2xU1j64DlntllIdTf40x1Pu102sLoaxH5-bGsrF4lqBsLCIgcKzVJ4kJf_IaA6DDtZrekLEzRCBnyJ36dSg9rIx-LykAL8xo_TsI1cRjzfwK13t1AEZSNR1-ZANTpE_Beuft0Oq5UKi50fCxapLiudDh9gQMv3Zb2smHHUnbjbNbZ7_VPatSc6IrJVteUTdKknA-bJjWOno_-bRM8oQRMzm7ML9Wnohp6eAhZ3f1zTqG1tRLyEheFs4twFi90s4Mbai09YAAUHybZAFLsx3gyitaFCxMXevRO-35-gGeIauf4XwzmVIPYgGRxTFxvq-Q4eF9aryXBo9uZ9nzh0MCKYtcJ8f8drap2gpUzJuw-Mh4syc0uAGCDvqWJkgk4bGPdTfgzkDlZrpjiXg94UUoT2OR6biFOSIR2OUD3186giY6BAZMK-9B9m0tdaZnhhJ1LVWU7b3AUR4QS2bXgS2YYx2ZQ5l8T5xHEgPcDyL16OfMvDCCHiB_rkwm0FWTUPGPpJZgq3k1bbon1fprQpeUvStypv2jvbdDr4dLGpKPW05ByrCxIScYKrxCWRfdiVOLCNwfQJO2fKWii3Dp4sjnRbnie87lGopgz8WamWg=w1301-h919-no?authuser=0'
         )
         line_bot_api.reply_message(event.reply_token,res_message)
         return 0  
